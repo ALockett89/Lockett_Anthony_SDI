@@ -9,3 +9,8 @@ var weekstilpay = prompt("How many weeks in between pay checks? \n1 or 2?")// Th
 var hoursinweek = daysworked * hoursinday// This variable calculates how many hours were worked in 1 week.
 var check = hoursinweek * weekstilpay// This variable calculates the hours on the user's next paycheck.
 alert("Congratulations!!! \nYou will have" + " " + check + "hours on you next pay check!")// This alert shows the user how many hours that will be on their pay check based on their inputs.
+console.log("Days worked:" + " " + daysworked)// Shows the days worked in the console.
+console.log("Hours worked each day:" + " " + hoursinday)// Shows the hours worked each day in the console.
+console.log("Weeks between paychecks:" + " " + weekstilpay)// Shows the weeks between each paychecks in the console.
+console.log("Hours worked in a week:" + " " + hoursinweek)// Shows the hours worked in a week in the console.
+console.log("The answer the user gets:" + " " + check)// Shows the the answer the user gets in the console.
