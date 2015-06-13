@@ -9,3 +9,9 @@ var weekstilpay = prompt("How many weeks in between pay checks? \n1 or 2?")
 var hoursinweek = daysworked * hoursinday
 var check = hoursinweek * weekstilpay
 alert("Congratulations!!! \nYou will have" + " " + check + "hours on you next pay check!")
+console.log("Days worked:" + " " + daysworked)
+console.log("Hours worked each day:" + " " + hoursinday)
+console.log("Days worked:" + " " + daysworked)
+console.log("Weeks between pay checks:" + " " + daysworked)
+console.log("Days worked:" + " " + daysworked)
+console.log("Days worked:" + " " + daysworked)
