@@ -11,6 +11,6 @@ var check = hoursinweek * weekstilpay
 alert("Congratulations!!! \nYou will have" + " " + check + "hours on you next pay check!")
 console.log("Days worked:" + " " + daysworked)
 console.log("Hours worked each day:" + " " + hoursinday)
-console.log("Weeks between pay checks:" + " " + daysworked)
+console.log("Weeks between pay checks:" + " " + weekstilpay)
 console.log("Hours worked in a week:" + " " + hoursinweek)
 console.log("The answer the user gets:" + " " + check)
