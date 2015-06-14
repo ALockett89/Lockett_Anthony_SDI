@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b6883ba2-8851-4dc2-b46b-9a6941f5bb6c" name="Default" comment="" />
+    <list default="true" id="b6883ba2-8851-4dc2-b46b-9a6941f5bb6c" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Conditionals_worksheet/Group 1 Expressions with Conditionals/js/Group 1.js" afterPath="$PROJECT_DIR$/Conditionals_worksheet/Group 1 Expressions with Conditionals/js/Group 1.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Conditionals_worksheet/Group 1 Expressions with Conditionals/index.html" afterPath="$PROJECT_DIR$/Conditionals_worksheet/Group 1 Expressions with Conditionals/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="Lockett_Anthony_SDI.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,22 +25,36 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Conditionals_worksheet/Group 1 Expressions with Conditionals/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state vertical-scroll-proportion="-5.0">
+              <caret line="8" column="42" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="42" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Group 1.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Group 1.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Conditionals_worksheet/Group 1 Expressions with Conditionals/js/Group 1.js">
           <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.1590909">
+              <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Expressions Assignment.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Lockett_Anthony_Expressions_Assisgnment/Expressions Assignment/js/Expressions Assignment.js">
+          <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="2" selection-end-column="25" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -79,6 +97,8 @@
         <option value="$PROJECT_DIR$/Expressions_worksheet/Lockett_Anthony_Expressions_Assignment2/Dog Years/js/Expressions Assignment.js" />
         <option value="$PROJECT_DIR$/Lockett_Anthony_Expressions_Assisgnment/Expressions Assignment/index.html" />
         <option value="$PROJECT_DIR$/Lockett_Anthony_Expressions_Assisgnment/Expressions Assignment/js/Expressions Assignment.js" />
+        <option value="$PROJECT_DIR$/Conditionals_worksheet/Group 1 Expressions with Conditionals/index.html" />
+        <option value="$PROJECT_DIR$/Conditionals_worksheet/Group 1 Expressions with Conditionals/js/Group 1.js" />
       </list>
     </option>
   </component>
@@ -404,16 +424,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Lockett_Anthony_Expressions_Assisgnment/Expressions Assignment/js/Expressions Assignment.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3409091">
-          <caret line="15" column="10" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Lockett_Anthony_Expressions_Assisgnment/Expressions Assignment/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.22203948">
@@ -422,19 +432,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Conditionals_worksheet/Group 1 Expressions with Conditionals/js/Group 1.js">
+    <entry file="file://$PROJECT_DIR$/Conditionals_worksheet/Group 1 Expressions with Conditionals/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="-5.0">
+          <caret line="8" column="42" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="42" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Conditionals_worksheet/Group 1 Expressions with Conditionals/index.html">
+    <entry file="file://$PROJECT_DIR$/Lockett_Anthony_Expressions_Assisgnment/Expressions Assignment/js/Expressions Assignment.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="2" selection-end-column="25" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Conditionals_worksheet/Group 1 Expressions with Conditionals/js/Group 1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.1590909">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
