@@ -1,10 +1,10 @@
 /*
  Anthony Lockett
  June 13, 2015
- Group 1: Expressions with Conditionals
+ Conditionals Assignment
  */
 
-//Celsius to Fahrenheit converter
+//Calculate your wages
 
 var paytype = prompt("How do you get paid? \n 1. Weekly \n 2. Bi-Weekly")
 if(paytype <= 1){
@@ -18,7 +18,18 @@ if(paytype <= 1){
   alert("You wage is" + " " + gross)
  }else{var net2 = gross * .9
   alert("Your wage is" + " " + net2)}
-}else{alert("Bi-Weekly")
+}else{alert("Bi-Weekly? Ok!")
+ var hoursaday = prompt("How many hours do you work a day?")
+ var hourwage = prompt("How much is your hourly wage?")
+ var daysworked = prompt("How many days do you work in a week?")
+ var weekhours1 = hoursaday * daysworked
+ var weekhours2 = weekhours1 * 2
+ var gross = hourwage * weekhours2
+ var net = prompt("Do you pay taxes? \n 1. Yes \n 2. No")
+ if(net >1){
+  alert("You wage is" + " " + gross)
+ }else{var net2 = gross * .9
+  alert("Your wage is" + " " + net2)}
 }
 console.log("Hours A Day:" + hoursaday)
 console.log("Hourly Wage:" + hourwage)
