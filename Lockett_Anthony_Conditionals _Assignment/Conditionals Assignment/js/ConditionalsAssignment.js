@@ -31,6 +31,12 @@ if(paytype <= 1){
  }else{var net2 = gross * .9
   alert("Your wage is" + " " + net2)}
 }
+var ballerstatus = ["Baller Status: Balling!!!", "Baller Status: Maybe Next Check, Hang In There"]
+var balling = 380
+if(net2 > balling){
+ alert(ballerstatus[0])
+}else{alert(ballerstatus[1])
+}
 console.log("Hours A Day:" + hoursaday)
 console.log("Hourly Wage:" + hourwage)
 console.log("Days Worked A Week:" + daysworked)
