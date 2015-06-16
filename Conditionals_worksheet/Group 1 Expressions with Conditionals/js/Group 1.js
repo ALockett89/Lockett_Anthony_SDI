@@ -1,9 +1,16 @@
-// Anthony Lockett
-//June 13, 2015
-// Group 1: Expressions with Conditionals
+/*
+Anthony Lockett
+June 13, 2015
+ Group 1: Expressions with Conditionals
+ */
 
 //Celsius to Fahrenheit converter
 
-var usertemp = prompt("Enter your temp.")
-var cel = 33.8
-var fah = 17.2222222
+var temp = prompt("Enter Your Temp!")
+var usertemp = temp
+var cel = + 2
+var celpt1 = temp + cel
+var dick = 5
+var ball = dick + cel
+
+console.log(usertemp)
