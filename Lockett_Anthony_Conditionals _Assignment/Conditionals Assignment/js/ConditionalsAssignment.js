@@ -4,7 +4,7 @@
  Conditionals Assignment
  */
 
-//Calculate your wages
+//Calculate your wages & see if you are BALLING!
 
 var paytype = prompt("How do you get paid? \n 1. Weekly \n 2. Bi-Weekly")
 if(paytype <= 1){
