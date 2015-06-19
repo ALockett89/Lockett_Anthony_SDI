@@ -35,7 +35,9 @@ var ballerstatus = ["Baller Status: Balling!!!", "Baller Status: Maybe Next Chec
 var balling = 380// This variable is the base number that the code uses to calculates the user's status.
 if(net2 > balling){ // This condition directs which section of code to run base on the user's input.
  alert(ballerstatus[0])// This alert notifies the user of their TRUE outcome.
+ console.log(ballerstatus[0])
 }else{alert(ballerstatus[1])// This alert notifies the user of their FALSE outcome.
+ console.log(ballerstatus[1])
 }
 console.log("Hours A Day:" + hoursaday)// Shows the hours worked each day in the console.
 console.log("Hourly Wage:" + hourwage)// Shows the amount paid by tge hour in the console.
