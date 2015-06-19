@@ -31,15 +31,15 @@ if(paytype <= 1){ // This condition directs which section of code to run base on
  }else{var net2 = gross * .9// This condition directs which section of code to run base on the user's input.
   alert("Your wage is" + " " + net2)}// This alert notifies the user of their net amount.
 }
-var ballerstatus = ["Baller Status: Balling!!!", "Baller Status: Maybe Next Check, Hang In There"]
-var balling = 380
-if(net2 > balling){
- alert(ballerstatus[0])
-}else{alert(ballerstatus[1])
+var ballerstatus = ["Baller Status: Balling!!!", "Baller Status: Maybe Next Check, Hang In There"]// This array contains variables of the user's "Baller Status".
+var balling = 380// This variable is the base number that the code uses to calculates the user's status.
+if(net2 > balling){ // This condition directs which section of code to run base on the user's input.
+ alert(ballerstatus[0])// This alert notifies the user of their TRUE outcome.
+}else{alert(ballerstatus[1])// This alert notifies the user of their FALSE outcome.
 }
-console.log("Hours A Day:" + hoursaday)
-console.log("Hourly Wage:" + hourwage)
-console.log("Days Worked A Week:" + daysworked)
-console.log("Hours Worked A Week:" + weekhours1)
-console.log("Gross Wage:" + gross)
-console.log("Net Wage:" + net2)
+console.log("Hours A Day:" + hoursaday)// Shows the hours worked each day in the console.
+console.log("Hourly Wage:" + hourwage)// Shows the amount paid by tge hour in the console.
+console.log("Days Worked A Week:" + daysworked)// Shows the days worked in the console.
+console.log("Hours Worked A Week:" + weekhours1)// Shows the hours worked in the week(s) in the console.
+console.log("Gross Wage:" + gross)// Shows the gross wage in the console.
+console.log("Net Wage:" + net2)// Shows the net wage in the console.
