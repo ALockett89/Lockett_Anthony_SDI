@@ -82,17 +82,50 @@ function dateofbirth3(){
 }
 var userdayofbirth = dateofbirth3()
 
-var totalageday = userdayoftest - userdayofbirth
-var totalagemonth = usermonthoftest - usermonthofbirth
-var totalageyear = useryearoftest - useryearofbirth
-var chronologicalage = "Your Chronological Age is:\n" +totalageyear + " " + "years," + " " +totalagemonth + " " + "months, and" + " " +totalageday + " " + "days old!"
+function dayfix(){
+    var fix = usermonthoftest - 1
+    return fix
+}
 
-alert(chronologicalage)
+function dayfix1(){
+    var fix2 = userdayoftest +30
+    return fix2
+}
 
-console.log("Today's year:" + " " +useryearoftest)
-console.log("Today's month:" + " " +usermonthoftest)
-console.log("Today's day:" + " " +userdayoftest)
-console.log("Your birth year:" + " " +useryearofbirth)
-console.log("Your birth month:" + " " +usermonthofbirth)
-console.log("Your birth day:" + " " +userdayofbirth)
-console.log(chronologicalage)
+if(userdayoftest < userdayofbirth){
+    var dayfix2 = dayfix()
+    var dayfix3 = dayfix1()
+    alert(chronologicalagedayfix)
+}
+
+function monthfix(){
+    var fix3 = useryearoftest - 1
+    return fix3
+}
+
+function monthfix1(){
+    var fix4 = usermonthoftest +12
+    return fix4
+}
+
+if(usermonthoftest < usermonthofbirth){
+    var monthfix2 = monthfix()
+    var monthfix3 = monthfix1()
+}
+
+
+//var totalageday = userdayoftest - userdayofbirth
+//var totalagemonth = usermonthoftest - usermonthofbirth
+//var totalageyear = useryearoftest - useryearofbirth
+//var chronologicalage = "Your Chronological Age is:\n" +totalageyear + " " + "years," + " " +totalagemonth + " " + "months, and" + " " +totalageday + " " + "days old!"
+var chronologicalagedayfix = "Your Chronological Age is:\n" +totalageyear + " " + "years," + " " +dayfix2 + " " + "months, and" + " " +dayfix3 + " " + "days old!"
+
+//alert(chronologicalage)
+
+//console.log("Today's year:" + " " +useryearoftest)
+//console.log("Today's month:" + " " +usermonthoftest)
+//console.log("Today's day:" + " " +userdayoftest)
+//console.log("Your birth year:" + " " +useryearofbirth)
+//console.log("Your birth month:" + " " +usermonthofbirth)
+//console.log("Your birth day:" + " " +userdayofbirth)
+//console.log(chronologicalage)
