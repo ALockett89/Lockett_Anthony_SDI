@@ -91,56 +91,68 @@ function dayfix1(){
     return fix2
 }
 
-daytotalfix()
-
-function daytotalfix(){
-    if(userdayoftest < userdayofbirth){
-        dayfix()
-        dayfix1()
-        var totalageyear = useryearoftest - useryearofbirth
-        var chronologicalagedayfix = "Your Chronological Age is:\n" +totalageyear + " " + "years," + " " +dayfix() + " " + "months, and" + " " +dayfix1() + " " + "days old!"
-        alert(chronologicalagedayfix)
-        console.log("Today's year:" + " " +useryearoftest)
-        console.log("Today's month:" + " " +usermonthoftest)
-        console.log("Today's day:" + " " +userdayoftest)
-        console.log("Your birth year:" + " " +useryearofbirth)
-        console.log("Your birth month:" + " " +usermonthofbirth)
-        console.log("Your birth day:" + " " +userdayofbirth)
-        console.log(chronologicalagedayfix)
-        return dayfix()
-        return dayfix1()
-    }else{
-        var totalageday = userdayoftest - userdayofbirth
-        var totalagemonth = usermonthoftest - usermonthofbirth
-        var totalageyear = useryearoftest - useryearofbirth
-        var chronologicalage = "Your Chronological Age is:\n" +totalageyear + " " + "years," + " " +totalagemonth + " " + "months, and" + " " +totalageday + " " + "days old!"
-        alert(chronologicalage)
-        console.log("Today's year:" + " " +useryearoftest)
-        console.log("Today's month:" + " " +usermonthoftest)
-        console.log("Today's day:" + " " +userdayoftest)
-        console.log("Your birth year:" + " " +useryearofbirth)
-        console.log("Your birth month:" + " " +usermonthofbirth)
-        console.log("Your birth day:" + " " +userdayofbirth)
-        console.log(chronologicalage)
-    }
-}
-
 function monthfix(){
     var fix3 = useryearoftest - 1
     return fix3
 }
-
 function monthfix1(){
     var fix4 = usermonthoftest +++12
     return fix4
 }
 
-function monthtotalfix1(){
-    if(usermonthoftest < usermonthofbirth){
-        monthfix()
-        monthfix1()
+daytotalfix()
+
+function daytotalfix() {
+    if (userdayoftest < userdayofbirth) {
+        dayfix()
+        dayfix1()
+        var totalageyear = useryearoftest - useryearofbirth
+        var chronologicalagedayfix = "Your Chronological Age is:\n" + totalageyear + " " + "years," + " " + dayfix() + " " + "months, and" + " " + dayfix1() + " " + "days old!"
+        alert(chronologicalagedayfix)
+        console.log("Today's year:" + " " + useryearoftest)
+        console.log("Today's month:" + " " + usermonthoftest)
+        console.log("Today's day:" + " " + userdayoftest)
+        console.log("Your birth year:" + " " + useryearofbirth)
+        console.log("Your birth month:" + " " + usermonthofbirth)
+        console.log("Your birth day:" + " " + userdayofbirth)
+        console.log(chronologicalagedayfix)
+        return dayfix()
+        return dayfix1()
+    } else {
+        if (usermonthoftest < usermonthofbirth) {
+            usermonthoftest
+            usermonthofbirth
+            monthfix()
+            monthfix1()
+            var totalageday = userdayoftest - userdayofbirth
+            var chronologicalagemonthfix = "Your Chronological Age is:\n" + monthfix() + " " + "years," + " " + monthfix1() + " " + "months, and" + " " + totalageday + " " + "days old!"
+            alert(chronologicalagemonthfix)
+            console.log("Today's year:" + " " + useryearoftest)
+            console.log("Today's month:" + " " + usermonthoftest)
+            console.log("Today's day:" + " " + userdayoftest)
+            console.log("Your birth year:" + " " + useryearofbirth)
+            console.log("Your birth month:" + " " + usermonthofbirth)
+            console.log("Your birth day:" + " " + userdayofbirth)
+            console.log(chronologicalagemonthfix)
+            return monthfix()
+            return monthfix1()
+        } else {
+            var totalageday = userdayoftest - userdayofbirth
+            var totalagemonth = usermonthoftest - usermonthofbirth
+            var totalageyear = useryearoftest - useryearofbirth
+            var chronologicalage = "Your Chronological Age is:\n" + totalageyear + " " + "years," + " " + totalagemonth + " " + "months, and" + " " + totalageday + " " + "days old!"
+            alert(chronologicalage)
+            console.log("Today's year:" + " " + useryearoftest)
+            console.log("Today's month:" + " " + usermonthoftest)
+            console.log("Today's day:" + " " + userdayoftest)
+            console.log("Your birth year:" + " " + useryearofbirth)
+            console.log("Your birth month:" + " " + usermonthofbirth)
+            console.log("Your birth day:" + " " + userdayofbirth)
+            console.log(chronologicalage)
+        }
     }
 }
+
 
 var totalageday = userdayoftest - userdayofbirth
 var totalagemonth = usermonthoftest - usermonthofbirth
@@ -157,4 +169,4 @@ var chronologicalagedayfix = "Your Chronological Age is:\n" +totalageyear + " " 
 //console.log("Your birth year:" + " " +useryearofbirth)
 //console.log("Your birth month:" + " " +usermonthofbirth)
 //console.log("Your birth day:" + " " +userdayofbirth)
-//console.log(chronologicalage)
+//console.log(chronologicalage)gicalage)
