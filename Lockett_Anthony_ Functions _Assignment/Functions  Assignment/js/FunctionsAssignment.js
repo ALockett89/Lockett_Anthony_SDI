@@ -8,7 +8,8 @@
 //Calculation Of Age
 
 
-function dateoftest(){//This function gets the current year date from the user.
+
+function dateoftest(){
     var testyear = prompt("What is today's year?")
     while(testyear==="" || isNaN(testyear)){
         if(testyear===""){
@@ -20,7 +21,7 @@ function dateoftest(){//This function gets the current year date from the user.
 }
 var useryearoftest = dateoftest()
 
-function dateoftest2(){//This function gets the current month date from the user.
+function dateoftest2(){
     var testmonth = prompt("What is today's month?")
     while(testmonth==="" || isNaN(testmonth)){
         if(testmonth===""){
@@ -32,7 +33,7 @@ function dateoftest2(){//This function gets the current month date from the user
 }
 var usermonthoftest = dateoftest2()
 
-function dateoftest3(){//This function gets the current day date from the user.
+function dateoftest3(){
     var testday = prompt("What is today's day?")
     while(testday==="" || isNaN(testday)){
         if(testday===""){
@@ -44,7 +45,7 @@ function dateoftest3(){//This function gets the current day date from the user.
 }
 var userdayoftest = dateoftest3()
 
-function dateofbirth(){//This function gets the user's year born from the user.
+function dateofbirth(){
     var birthyear = prompt("What is your birth year?")
     while(birthyear==="" || isNaN(birthyear)){
         if(birthyear===""){
@@ -56,7 +57,7 @@ function dateofbirth(){//This function gets the user's year born from the user.
 }
 var useryearofbirth = dateofbirth()
 
-function dateofbirth2(){//This function gets the user's month born from the user.
+function dateofbirth2(){
     var birthmonth = prompt("What is your birth month?")
     while(birthmonth==="" || isNaN(birthmonth)){
         if(birthmonth===""){
@@ -68,7 +69,7 @@ function dateofbirth2(){//This function gets the user's month born from the user
 }
 var usermonthofbirth = dateofbirth2()
 
-function dateofbirth3(){//This function gets the user's day born from the user.
+function dateofbirth3(){
     var birthday = prompt("What is your birth day?")
     while(birthday==="" || isNaN(birthday)){
         if(birthday===""){
@@ -80,34 +81,33 @@ function dateofbirth3(){//This function gets the user's day born from the user.
 }
 var userdayofbirth = dateofbirth3()
 
-function dayfix(){//This function is to help fix if the test day is lower then the birth day.
+function dayfix(){
     var fix = usermonthoftest - 1
     return fix
 }
-function dayfix1(){//This function is to help fix if the test day is lower then the birth day.
+
+function dayfix1(){
     var fix2 = userdayoftest +++30
     return fix2
 }
 
-function monthfix(){//This function is to help fix if the test month is lower then the birth day.
+function monthfix(){
     var fix3 = useryearoftest - 1
     return fix3
 }
-function monthfix1(){//This function is to help fix if the test month is lower then the birth day.
+function monthfix1(){
     var fix4 = usermonthoftest +++12
     return fix4
 }
 
-total()
+daytotalfix()
 
-function total() {
+function daytotalfix() {
     if (userdayoftest < userdayofbirth) {
         dayfix()
         dayfix1()
-        var monthfix2 = monthfix() - useryearofbirth
-        var monthfix3 = monthfix1() - usermonthofbirth
         var totalageyear = useryearoftest - useryearofbirth
-        var chronologicalagedayfix = "Your Chronological Age is:\n" + totalageyear + " " + "years," + " " + monthfix2 + " " + "months, and" + " " + monthfix3 + " " + "days old!"
+        var chronologicalagedayfix = "Your Chronological Age is:\n" + totalageyear + " " + "years," + " " + dayfix() + " " + "months, and" + " " + dayfix1() + " " + "days old!"
         alert(chronologicalagedayfix)
         console.log("Today's year:" + " " + useryearoftest)
         console.log("Today's month:" + " " + usermonthoftest)
@@ -120,6 +120,8 @@ function total() {
         return dayfix1()
     } else {
         if (usermonthoftest < usermonthofbirth) {
+            usermonthoftest
+            usermonthofbirth
             monthfix()
             monthfix1()
             var totalageday = userdayoftest - userdayofbirth
@@ -148,9 +150,10 @@ function total() {
             console.log("Your birth day:" + " " + userdayofbirth)
             console.log(chronologicalage)
         }
-
     }
 }
+
+
 var totalageday = userdayoftest - userdayofbirth
 var totalagemonth = usermonthoftest - usermonthofbirth
 var totalageyear = useryearoftest - useryearofbirth
